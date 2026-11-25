@@ -17,7 +17,17 @@ public class SecurityConfig {
                     "/api/health",
                     "/api/database-test",
                     "/api/users",
-                    "/api/patients"
+                    "/api/patients",
+                    "/api/doctors",
+                    "/api/specialisations",
+                    "/api/appointments",
+                    "/api/rooms",
+                    "/api/sessions",
+                    "/api/consultations",
+                    "/api/notifications",
+                    "/api/feedback",
+                    "/api/notices",
+                    "/api/audit-logs"
                 ).permitAll()
                 .anyRequest().authenticated()
             );

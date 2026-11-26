@@ -18,6 +18,7 @@ public class SecurityConfig {
                     "/api/database-test",
                     "/api/users",
                     "/api/patients",
+                    "/api/patients/**",
                     "/api/doctors",
                     "/api/specialisations",
                     "/api/appointments",

@@ -100,7 +100,7 @@ VALUES
           AND s.session_date = '2026-12-01'
     ),
     'Sample diagnosis',
-    'Follow the doctor's advice.',
+    'Follow the doctor''s advice.',
     'Sample prescription',
     'Demonstration consultation record'
 );

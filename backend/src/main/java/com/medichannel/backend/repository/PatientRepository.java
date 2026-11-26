@@ -6,4 +6,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PatientRepository extends JpaRepository<Patient, Long> {
+
+    boolean existsByUserId(Long userId);
+
+    boolean existsByNicHash(String nicHash);
 }

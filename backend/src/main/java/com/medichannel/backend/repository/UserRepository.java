@@ -1,4 +1,3 @@
-
 package com.medichannel.backend.repository;
 
 import com.medichannel.backend.entity.User;
